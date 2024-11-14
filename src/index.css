@@ -147,3 +147,7 @@ button.listado-borrar {
 button.listado-borrar:hover {
   background-color: #e53935;
 }
+
+.filter-label {
+  color: white;
+}

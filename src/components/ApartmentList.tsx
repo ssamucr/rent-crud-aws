@@ -56,7 +56,7 @@ const ApartmentList: React.FC = () => {
         <h2 className="main-title">Listado de Apartamentos</h2>
         <div className="listado">
           <form onSubmit={handleSubmit}>
-            <label>ID:</label>
+            <label className="filter-label">ID:</label>
             <input type="text" name="id" value={index} onChange={handleChange} placeholder='Todos' />
           <button type="submit">Buscar</button>
           </form>
